@@ -24,7 +24,7 @@ padding: 0px;
     display: inline-block;
     font-size: 6rem;
     opacity: 0;
-    color: #3498db;
+    color: goldenrod;
 }
 
 @keyframes dot-slide {
@@ -63,4 +63,8 @@ padding: 0px;
 }
 .inner-loader label:nth-child(1) {
     animation: dot-slide 3s 500ms infinite ease-in-out;
+}
+
+p {
+    margin: 2rem;
 }
